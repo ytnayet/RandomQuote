@@ -40,14 +40,14 @@ h1 {
 #btne {
   transition: 0.08s transform ease-in-out;
   background-color: rgb(12, 73, 32);
+  color: #e2c470;
   position: absolute;
   bottom: 10%;
   left: 40%;
   font-size: 1rem;
   padding: 0.5rem;
-  border-radius: 34px;
+  border-radius: 30px;
   cursor: pointer;
-  color: #e2c470;
   margin-top: 40px;
 }
 #btne:active {
@@ -57,11 +57,14 @@ h1 {
 #author {
   position: absolute;
   bottom: 29.5%;
-  right: 10%;
   color: #e2c470;
+  padding: 1.5rem 0;
+  font-family: "Bebas Neue", cursive;
+  box-shadow: 15px 15px 10px rgb(219, 223, 224);
 }
 #author-name {
-  font-size: 1.4rem;
-  margin-left: 0.4rem;
+  justify-content: center;
   color: #e2c470;
+  padding: 1.5rem 0;
+  font-family: "Bebas Neue", cursive;
 }

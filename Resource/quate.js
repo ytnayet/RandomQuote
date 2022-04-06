@@ -5,6 +5,7 @@ let button = document.querySelector("#btne");
 let authorName = document.querySelector("#authorName");
 getQuote();
 
+//get data from the API
 async function getQuote() {
   let res = await fetch("https://type.fit/api/quotes");
   let data = await res.json();
